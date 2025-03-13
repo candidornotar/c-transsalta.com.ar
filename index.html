@@ -13,8 +13,8 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #87CEEB; /* Celeste claro */
-            color: black; /* Texto en negro para mejor contraste */
+            background: linear-gradient(to bottom, #000080, #87CEEB); /* Degradado de azul a celeste */
+            color: white; /* Texto en blanco para mejor contraste */
             font-family: Arial, sans-serif;
             text-align: center;
             position: relative;
@@ -32,7 +32,7 @@
             margin: 10px 0;
         }
         a {
-            color: #0000EE; /* Azul estándar para enlaces */
+            color: #FFF; /* Texto blanco para enlaces */
             text-decoration: none;
         }
         a:hover {
@@ -45,7 +45,14 @@
             position: absolute;
             bottom: 10px;
             font-size: 0.8em; /* Letra más pequeña */
-            color: #555; /* Color gris para el footer */
+            color: #FFF; /* Texto blanco para el footer */
+        }
+        footer a {
+            color: #FFF; /* Texto blanco para el enlace del correo */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -59,7 +66,7 @@
         </div>
     </div>
     <footer>
-        Sitio en construcción
+        Sitio en construcción | <a href="mailto:webmaster@c-transsalta.com.ar">webmaster@c-transsalta.com.ar</a>
     </footer>
 </body>
 </html>
